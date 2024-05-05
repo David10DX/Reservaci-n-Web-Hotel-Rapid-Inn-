@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="img/RapidInn.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>RAPID-INN</title>
+    <style>
+            nav{
+                position:fixed;
+            }
+            .menun{
+                display:block;
+                background-color: rgb(227,222,218);
+                height:80px;
+                float:left;
+                text-align: center;
+                box-shadow: 0 0 50px brown;
+            }
+            .imagen{
+                float:left;
+                padding-top:10px;
+                padding-left: 40px;
+                height:80px;
+                border-left: 5px solid rgb(58,42,29);
+                border-right: 5px solid rgb(58,42,29);
+                text-align:left;
+            }
+            .imagen:hover{
+                border-bottom: 5px solid rgb(58,42,29);
+                border-top: 5px solid rgb(58,42,29);
+                padding-top:4px;
+            }
+            .imagen1{
+                padding-left:27%;
+                width:40%;
+                height: 60px;
+            }
+            .opciones{
+                float:left;
+            }
+            .opcion{
+                text-decoration: none;
+                color: rgb(58,42,29);
+                height:60px;
+                font-family: Oswald,sans-serif;
+                font-size: 20px;
+                display: block;
+                padding-top:12px;
+                padding-bottom:12px;
+                text-transform: uppercase;
+                text-shadow: 0px 0px 1px rgba(58,42,29, 0.911);
+                float:left;
+                font-weight: bold;
+                border: 1px solid rgba(58, 42, 29, 0.532);
+            } 
+            .opcion:hover{
+                background-color: rgba(229, 164, 33, 0.662);
+                color: rgb(58,42,29);
+                text-shadow: 0px 0px 1px rgb(180, 57, 57);
+            }  
+            .espacio{
+                height:20px;
+                float:right;
+                border: 1px solid rgba(58, 42, 29, 0.532);
+            }
+            .imagen2{
+                float:left;
+                border: 1px solid rgba(58, 42, 29, 0.532)
+            }
+            .imagen2 img{
+                padding-top: 10px;
+                width: 62.5%;
+            }
+            .presentacion{
+                height:600px;
+                background: linear-gradient(to bottom, rgba(49, 49, 87,0) 80%, rgba(49, 49, 87,1)), url(https://img.freepik.com/foto-gratis/hermoso-complejo-hotelero-frente-playa-tropical-piscina-destino-paradisiaco-vacaciones-ge_1258-150767.jpg?size=626&ext=jpg&ga=GA1.1.1297763733.1711497600&semt=ais);
+                background-size: cover;
+                display:inline-block;
+            }
+            .presentacion2{
+                padding-top: 30%;
+                background-color: transparent;
+            }
+            .presentacion2 h2{
+                text-align: center;
+                color:white;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 70px;
+                background-color: transparent;
+                text-shadow: 0px 0px 15px rgb(49, 49, 87);
+            }
+            .separador{
+                height:100px;
+                background-color: rgb(227,222,218);
+                float: left;
+            }
+            .row{
+              float: left;
+            }
+            .separadorl{
+                height:800px;
+                background-color: rgb(227,222,218);
+                float: left;
+            }
+            .separadorf{
+                height:50px;
+                background-color: rgb(58,42,29);
+                float: left;
+            }
+            .formulario{
+                height:800px;
+                background-color: rgb(58,42,29);
+                float: left;
+            }
+            .uno{
+                float: left;
+            }
+            .uno h1{
+              color:rgba(255, 255, 255, 0.877);
+              padding:30px;
+              text-align: center;
+              background-color: transparent;
+              margin-top:0%;
+            }
+            .uno h2{
+              color:rgba(255, 255, 255, 0.877);
+              padding:30px;
+              text-align: center;
+              background-color: transparent;
+              margin-top:0%; 
+            }
+            input{
+              padding-top:20px;
+              border:none;
+              outline: none;
+              border-bottom: 1px solid white;
+              background-color: transparent;
+              color:white;
+              font-size: medium;
+              width: 80%;
+            }
+            label{
+              color:white;
+              background-color: transparent;
+              font-family:  Berlin Sans FB;
+              padding-left: 20px;
+            }
+            select{
+              padding-top:20px;
+              border:none;
+              border-bottom: 1px solid white;
+              color:white;
+              background-color: transparent;
+              width: 80%;
+              font-size: medium;
+            }
+            option{
+              color:white;
+              background-color: rgb(58,42,29);
+            }
+            .uno p{
+              color:white;
+              background-color:transparent ;
+              font-family:  Berlin Sans FB;
+              padding-left:10px;
+            }
+            .boton{
+              float:left;
+            }
+            .separadorb{
+              float:left;
+              background-color: transparent;
+              height: 80px;
+            }
+            button{
+              border-radius: 30px;
+              background-color: rgb(227,222,218);
+              width:100%;
+              padding-bottom:10px;
+              color:rgb(58,42,29);
+              height:80px;
+              cursor: pointer;
+              font-family:  Berlin Sans FB;
+              font-size:50px;
+              
+            }
+            button:active{
+              background-color: rgb(58,42,29);
+              color:rgb(227,222,218);
+            }
+    </style>
+  </head>
+    <!--<nav class="col-12 col-m-12 col-g-12 menun">
+      <div class="imagen col-12 col-lg-2">
+          <img src="img/RapidInn-logo.png" class="imagen1">
+      </div>    
+      <div class="opciones col-12 col-lg-10">
+          <a class="espacio col-12 col-lg-12"></a>
+          <a href="https://david10dx.github.io/FCB_news/" class="opcion l-12 col-lg-3">SERVICIOS</a>
+          <a href="https://david10dx.github.io/FCB_calendario/" class="opcion l-12 col-lg-3">OFERTAS</a>
+          <div class="imagen2 col-12 col-lg-6">
+              <img src="img/RapidInn-letras.png">
+          </div>
+      </div>
+    </nav>-->
+    <!--<div class="presentacion col-12 col-lg-12">
+      <div class="presentacion2 col-12 col-lg-12">
+          <h2>¡Bienvenido a Hotel Rapid-INN!</h2>
+      </div>
+    </div>
+    <div class="separador col-12 col-lg-12"></div>
+      <div class="separadorl col-12 col-lg-1"></div>-->
+      <!--<div class="formulario col-12 col-lg-10">
+        <form>
+          <div class="col-lg-12 uno">
+            <h1>Reservaciones</h1>
+          </div>
+          <div class="col-lg-12 uno">
+            <p>Especifique todos los detalles posibles para realizar su reservación correctamente.</p>
+          </div>
+          <div class="col-12 col-lg-6 uno">
+            <label for="name"> Nombre Completo:</label><br>
+            <input type="text" id="name" name="name" >
+          </div>
+          <div class="col-12 col-lg-6 uno">
+            <label for="id"> Num. Identidad:</label><br>
+            <input type="text" id="id" name="id" >
+          </div>
+          <div class="separadorf col-12 col-lg-12"></div>
+          <div class="col-12 col-lg-6 uno">
+            <label for="email"> E-mail:</label><br>
+            <input type="email" id="correo" name="correo" >
+          </div>
+          <div class="col-12 col-lg-6 uno">
+            <label for="numero"> Telefono:</label><br>
+            <input type="text" id="numero" name="numero" >
+          </div>
+          <div class="separadorf col-12 col-lg-12"></div>
+          <div class="col-12 col-lg-6 uno">
+            <label for="fechae"> Fecha de Entrada:</label><br>
+            <input type="date" id="fechae" name="fechae" >
+          </div>
+          <div class="col-12 col-lg-6 uno">
+            <label for="fechas"> Fecha de Salida:</label><br>
+            <input type="date" id="fechas" name="Fechas" >
+          </div>
+          <div class="separadorf col-12 col-lg-12"></div>
+          <div class="col-12 col-lg-6 uno">
+            <label for="adultos">Cant. Adultos:</label><br>
+            <input type="number" id="adultos" name="adultos" >
+          </div>
+          <div class="col-12 col-lg-6 uno">
+            <label for="ninos">Cant. Niños:</label><br>
+            <input type="number" id="ninos" name="ninos" >
+          </div>
+          <div class="separadorf col-12 col-lg-12"></div>
+          <div class="col-lg-12 uno">
+            <h2>Habitaciones</h2>
+          </div>
+          <div class="col-12 col-lg-4 uno">
+            <label for="individual"> Individual:</label><br>
+            <input type="number" id="individual" name="individual" >
+          </div>
+          <div class="col-12 col-lg-4 uno">
+            <label for="doble"> Doble:</label><br>
+            <input type="number" id="doble" name="doble" >
+          </div>
+          <div class="col-12 col-lg-4 uno">
+            <label for="suit"> Suit:</label><br>
+            <input type="number" id="suit" name="suit" >
+          </div>
+          <div class="separadorf col-12 col-lg-12"></div>
+          <div class="col-lg-12 uno">
+            <div class="col-lg-4 separadorb"></div>
+            <div class="col-lg-4 boton">
+              <input type="submit" value="Reservar">
+            </div>
+            <div class="col-lg-4 separadorb"></div>
+          </div>
+        </form>  
+      </div>
+
+      <div class="separadorl col-12 col-lg-1"></div>
+      <div class="separador col-12 col-lg-12"></div>-->
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

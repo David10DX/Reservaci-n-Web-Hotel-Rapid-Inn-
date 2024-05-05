@@ -1,0 +1,239 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.col-lg-1{width: 8.33%;}
+.col-lg-2{width: 16.66%;}
+.col-lg-3{width: 25%;}
+.col-lg-4{width: 33.33%;}
+.col-lg-5{width: 41.66%;}
+.col-lg-6{width: 50%;}
+.col-lg-7{width: 58.33%;}
+.col-lg-8{width: 66.66%;}
+.col-lg-9{width: 75%;}
+.col-lg-10{width: 83.33%;}
+.col-lg-11{width: 91.66%;}
+.col-lg-12{width: 100%;} 
+
+nav{
+  position:fixed;
+}
+.menun{
+  display:block;
+  background-color: rgb(227,222,218);
+  height:80px;
+  float:left;
+  text-align: center;
+  box-shadow: 0 0 50px brown;
+}
+.imagen{
+  float:left;
+  padding-top:10px;
+  padding-left: 40px;
+  height:80px;
+  border-left: 5px solid rgb(58,42,29);
+  border-right: 5px solid rgb(58,42,29);
+  text-align:left;
+}
+.imagen:hover{
+  border-bottom: 5px solid rgb(58,42,29);
+  border-top: 5px solid rgb(58,42,29);
+  padding-top:4px;
+}
+.imagen1{
+  padding-left:27%;
+  width:40%;
+  height: 60px;
+}
+.opciones{
+  float:left;
+}
+.opcion{
+  text-decoration: none;
+  color: rgb(58,42,29);
+  height:60px;
+  font-family: Oswald,sans-serif;
+  font-size: 20px;
+  display: block;
+  padding-top:12px;
+  padding-bottom:12px;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 1px rgba(58,42,29, 0.911);
+  float:left;
+  font-weight: bold;
+  border: 1px solid rgba(58, 42, 29, 0.532);
+} 
+.opcion:hover{
+  background-color: rgba(229, 164, 33, 0.662);
+  color: rgb(58,42,29);
+  text-shadow: 0px 0px 1px rgb(180, 57, 57);
+}  
+.espacio{
+  height:20px;
+  float:right;
+  border: 1px solid rgba(58, 42, 29, 0.532);
+}
+.imagen2{
+  float:left;
+  border: 1px solid rgba(58, 42, 29, 0.532)
+}
+.imagen2 img{
+  padding-top: 10px;
+  width: 62.5%;
+}
+.presentacion{
+  height:600px;
+  background: linear-gradient(to bottom, rgba(49, 49, 87,0) 80%, rgba(49, 49, 87,1)), url(https://img.freepik.com/foto-gratis/hermoso-complejo-hotelero-frente-playa-tropical-piscina-destino-paradisiaco-vacaciones-ge_1258-150767.jpg?size=626&ext=jpg&ga=GA1.1.1297763733.1711497600&semt=ais);
+  background-size: cover;
+  display:inline-block;
+}
+.presentacion2{
+  padding-top: 30%;
+  background-color: transparent;
+}
+.presentacion2 h2{
+  text-align: center;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 70px;
+  background-color: transparent;
+  text-shadow: 0px 0px 15px rgb(49, 49, 87);
+}
+
+.separador{
+  height:100px;
+  background-color: rgb(227,222,218);
+  float: left;
+}
+.row{
+float: left;
+}
+.separadorl{
+  height:800px;
+  background-color: rgb(227,222,218);
+  float: left;
+}
+.separadorf{
+  height:50px;
+  background-color: rgb(58,42,29);
+  float: left;
+}
+.formulario{
+  height:800px;
+  background-color: rgb(58,42,29);
+  float: left;
+}
+select{
+  padding-top:20px;
+  border:none;
+  border-bottom: 1px solid white;
+  color:white;
+  background-color: transparent;
+  width: 80%;
+  font-size: medium;
+}
+option{
+  color:white;
+  background-color: rgb(58,42,29);
+}
+.uno{
+  float: left;
+}
+.uno h1{
+color:rgba(255, 255, 255, 0.877);
+padding:30px;
+text-align: center;
+background-color: transparent;
+margin-top:0%;
+}
+.uno h2{
+color:rgba(255, 255, 255, 0.877);
+padding:30px;
+text-align: center;
+background-color: transparent;
+margin-top:0%; 
+}
+input{
+padding-top:20px;
+border:none;
+outline: none;
+border-bottom: 1px solid white;
+background-color: transparent;
+color:white;
+font-size: medium;
+width: 80%;
+}
+label{
+color:white;
+background-color: transparent;
+font-family:  Berlin Sans FB;
+padding-left: 20px;
+}
+.uno p{
+color:white;
+background-color:transparent ;
+font-family:  Berlin Sans FB;
+padding-left:10px;
+}
+.boton{
+float:left;
+}
+.separadorb{
+float:left;
+background-color: transparent;
+height: 80px;
+}
+button{
+border-radius: 30px;
+background-color: rgb(227,222,218);
+width:100%;
+padding-bottom:10px;
+color:rgb(58,42,29);
+height:80px;
+cursor: pointer;
+font-family:  Berlin Sans FB;
+font-size:50px;
+
+}
+button:active{
+background-color: rgb(58,42,29);
+color:rgb(227,222,218);
+}
